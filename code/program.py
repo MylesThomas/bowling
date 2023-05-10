@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# If you have several versions of Python installed, /usr/bin/env will ensure the interpreter used is the first one on your environment's $PATH. The alternative would be to hard code something like #!/usr/bin/python; that's ok, but less flexible.
 class Program:
     def __init__(self, throw_results_list=None):
         if not throw_results_list:
